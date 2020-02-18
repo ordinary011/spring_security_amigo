@@ -17,4 +17,9 @@ public class Student {
     public Integer getStudentId() {
         return studentId;
     }
+
+    @Override
+    public String toString() {
+        return "studId " + studentId + " " + "studname " + studentName;
+    }
 }
